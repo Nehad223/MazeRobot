@@ -78,6 +78,9 @@ button:hover {
 }
 
 @media (max-width:500px) {
+  .robot{
+    width: 20px !important;
+  }
   .maze-cell {
     width: 10px !important;
     height: 10px !important;
