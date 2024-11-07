@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MazeRobot/static/css/main.b687a32c.css",
+    "main.css": "/MazeRobot/static/css/main.482de688.css",
     "main.js": "/MazeRobot/static/js/main.7df773cc.js",
     "static/js/453.f29e771c.chunk.js": "/MazeRobot/static/js/453.f29e771c.chunk.js",
     "index.html": "/MazeRobot/index.html",
-    "main.b687a32c.css.map": "/MazeRobot/static/css/main.b687a32c.css.map",
+    "main.482de688.css.map": "/MazeRobot/static/css/main.482de688.css.map",
     "main.7df773cc.js.map": "/MazeRobot/static/js/main.7df773cc.js.map",
     "453.f29e771c.chunk.js.map": "/MazeRobot/static/js/453.f29e771c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b687a32c.css",
+    "static/css/main.482de688.css",
     "static/js/main.7df773cc.js"
   ]
 }
