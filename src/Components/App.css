@@ -78,17 +78,20 @@ button:hover {
 }
 
 @media (max-width:500px) {
+  button{
+    font-size: 10px;
+  }
   .robot{
     width: 25px !important;
   }
   .maze-cell {
-    width: 12px !important;
-    height: 12px !important;
-    font-size: 10px !important;
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 12px !important;
   }
 
   .maze {
-    grid-template-columns: repeat(19, 12px) !important;
+    grid-template-columns: repeat(19, 14px) !important;
     grid-gap: 1px !important;
   }
 
