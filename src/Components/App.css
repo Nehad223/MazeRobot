@@ -79,16 +79,14 @@ button:hover {
 
 @media (max-width:500px) {
   .maze-cell {
-    width: 10px;
-    height: 10px;
-    font-size: 8px;
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 8px !important;
   }
 
   .maze {
-    display: grid;
-    grid-template-columns: repeat(19, 10px);
-    grid-gap: 1px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(19, 10px) !important;
+    grid-gap: 1px !important;
   }
 
   .maze-container {
