@@ -3,7 +3,7 @@ import './App.css';
 
 const RobotMaze = () => {
   const [position, setPosition] = useState({ x: 1, y: 2 });
-
+  const [isReturn, setIsreturn] = useState(false)
   const maze = [
     ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#'],
     ['#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '', '', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#'],
@@ -61,6 +61,7 @@ const RobotMaze = () => {
       }
     }
   };
+
 
 
 

@@ -54,3 +54,45 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+@media (max-width:800px) {
+  .maze-cell {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+
+  .maze {
+    display: grid;
+    grid-template-columns: repeat(19, 20px);
+    grid-gap: 2px;
+    margin-bottom: 20px;
+  }
+
+  .maze-container {
+    margin-top: 150px !important;
+
+  }
+
+
+}
+
+@media (max-width:400px) {
+  .maze-cell {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+  }
+
+  .maze {
+    display: grid;
+    grid-template-columns: repeat(19, 15px);
+    grid-gap: 1px;
+    margin-bottom: 20px;
+  }
+
+  .maze-container {
+    margin-top: 150px !important;
+
+  }
+}
